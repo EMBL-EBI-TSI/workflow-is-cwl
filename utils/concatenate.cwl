@@ -27,9 +27,9 @@ doc: >
   files, view contain of file, concatenate files and redirect output in terminal or files.
 label: Redirecting Multiple Files Contain in a Single File
 requirements:
-  - class: ResourceRequirement
-    ramMin: 100
-    coresMax: 1
+  #- class: ResourceRequirement
+  #  ramMin: 100
+  #  coresMax: 1
   - class: InlineJavascriptRequirement
 hints:
   - class: DockerRequirement
