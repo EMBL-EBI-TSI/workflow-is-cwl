@@ -33,9 +33,9 @@ requirements:
   - class: EnvVarRequirement
     envDef:
       LC_ALL: C
-  - class: ResourceRequirement
-    ramMin: 100
-    coresMax: 1
+  #- class: ResourceRequirement
+  #  ramMin: 100
+  #  coresMax: 1
   - class: InitialWorkDirRequirement
     listing:
       - $(inputs.cmsearch_matches)
